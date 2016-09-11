@@ -1,0 +1,156 @@
+.center {
+    position: relative;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: myfirst;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: cubic-bezier(1.000, -0.530, 0.405, 1.425);
+    /*-webkit-animation-delay: 2s;*/
+    -webkit-animation-iteration-count: infinite;
+   /* -webkit-animation-direction: alternate;*/
+   /* -webkit-animation-play-state: running;*/
+}
+@-webkit-keyframes myfirst {
+    0%   {left:100px; top:0px;}
+    25% {left:200px; top:10px;}
+    35% {left:400px; top:30px;}
+    50%  {left:700px; top:0px;}
+    75% {left:400px; top:30px;}
+    85% {left:200px; top:10px;}
+    100% {left:100px; top:0px;}
+}
+#image {
+  -webkit-animation-name: back;
+  	-webkit-animation-duration:45s;
+  	-webkit-animation-iteration-count:infinite;
+  	-webkit-animation-timing-function:ease-in-out;
+  	-webkit-animation-delay:0s;
+}
+
+@-webkit-keyframes back{
+  0% {background-image:url("C:/LCS HTML/LCS/bg.jpg");}
+  50%{background-image:url("C:/LCS HTML/LCS/bulb.jpg");}
+  100%{background-image:url("C:/LCS HTML/LCS/bg.jpg");}
+  
+}
+#home a {
+  -webkit-animation-name: anchor;
+  	-webkit-animation-duration:60s;
+  	-webkit-animation-iteration-count:infinite;
+  	-webkit-animation-timing-function:ease-out;
+  	-webkit-animation-delay:0s;
+}
+
+@-webkit-keyframes anchor{
+  0% {color:#E3A3A3; background-color:transparent;text-decoration: none;}
+  25%{color:rgb(15,25,79); background-color:transparent;text-decoration: none;}
+  50%{color:#E3A3A3; background-color:transparent;text-decoration: none;}
+  /*75% {color:rgb(15,25,79); background-color:transparent;text-decoration: none;}*/
+  75% {color:#E3A3A3; background-color:transparent;text-decoration: none;}
+}
+#sit{
+	width:60px;
+	height:50px;
+	border: 1px solid #fff;
+	box-shadow: 0px 20px 25px rgba(0,0,0,0.2);
+	}
+.drop-menu {
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    padding: 0px 0px;
+    font-size: 22px;
+    /*height: 400px;
+    width: 400px;*/
+    background: #fff;
+   /* cursor: pointer;*/
+    border: 1px solid #f6f0e4;
+}
+/*.drop-menu:hover .sub-menu {
+    display: inline-block;*/
+}
+.sub-menu {
+    display: none;
+    /*width: 4000px;*/
+    background: #fff;
+    padding: 10px 10px;
+    margin-left: -11px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0px 13px 25px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 13px 25px rgba(0,0,0, 0.2);
+    box-shadow: 0px 13px 25px rgba(0,0,0,0.2);
+}
+
+.sub-menu li {
+        list-style-type: none;
+        display: block;
+        border-bottom: 1px dotted #eaeaea;
+        font-size: 25px;
+        height: 35px;
+        padding: 15px ;
+        -webkit-transition: .7s ease-in-out;
+  -moz-transition: .7s ease-in-out;
+  -o-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
+    }
+.sub-menu li img {
+            margin-right: .5em;
+        }
+.sub-menu li:hover {
+        border-bottom: 1px dotted #bababa;
+        -webkit-transform: translate(1.5em,0);
+        transform:translate(1.5em,0);
+    }
+#footer {
+	width: 1100px;
+    background-color:rgba(15,56,78,0.4);
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+.center{
+   border: 1px solid #fff;
+   width:465px;
+   height:108px;
+	box-shadow: 0px 25px 30px rgba(0,0,0,0.5);
+}
+#goo{
+cursor:pointer;
+}
+
+body {
+width:300px;
+height:200px;
+background-image:url("C:/LCS HTML/LCS/bulb.jpg");
+background-width:300%;
+background-height:100%;
+background-repeat:no-repeat;
+background-position:top left;
+}
+a:link  {color:rgb(15,25,79); background-color:transparent;text-decoration: none;}
+a:visited {color:rgb(89,25,95); background-color:transparent;text-decoration: none;}
+a:hover   {color:rgb(20,05,02); background-color:transparent;text-decoration: none;}
+a:active  {color:rgb(05,02,118); background-color:transparent;text-decoration: none;}
+/*.tabs{
+font-family:"Courier New","Lucida Console";
+font-size: 55px;
+}
+#car:hover{
+	font-size:58px;
+}      
+#job:hover{
+	font-size:58px;
+	}
+#tut:hover{
+	font-size:58px;
+	}*/
+#aud1{
+width:40px;
+}
+#second{
+color:blue;
+font-family:"Courier New","Lucida Console";
+font-size: 50px;
+}
